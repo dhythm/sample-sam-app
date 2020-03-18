@@ -1,0 +1,29 @@
+{
+  "name": "sample-sam-app",
+  "version": "1.0.0",
+  "description": "This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.",
+  "main": "index.js",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "aws-sdk": "^2.641.0",
+    "glob": "^7.1.6",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3",
+    "webpack-cli": "^3.3.11",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.46",
+    "@types/glob": "^7.1.1",
+    "@types/node": "^13.9.1",
+    "@types/webpack": "^4.41.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=${NODE_ENV:-production} webpack",
+    "watch": "NODE_ENV=development webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
