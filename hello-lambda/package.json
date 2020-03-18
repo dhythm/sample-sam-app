@@ -7,7 +7,7 @@
   "author": "SAM CLI",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.18.0",
+    "axios": "0.19.2",
     "luxon": "1.22.0"
   },
   "scripts": {
