@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "awesome-typescript-loader": "^5.2.1",
-    "aws-sdk": "^2.641.0",
+    "aws-sdk": "^2.814.0",
     "glob": "^7.1.6",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3",
